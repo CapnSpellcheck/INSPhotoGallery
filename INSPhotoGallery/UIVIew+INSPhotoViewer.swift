@@ -19,7 +19,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     func ins_snapshotView() -> UIView {
         if let contents = layer.contents {
             var snapshotedView: UIView!
